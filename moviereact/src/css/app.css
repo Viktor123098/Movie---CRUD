@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+.container {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.container h1 {
+    color: #555555;
+}
+
+.container_table{
+    margin: auto;
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.container_table tr > * {
+    border: 1px solid black;
+    padding: 8px 12px;
+}
+
+.container_table tr button {
+    padding: 10px 20px;
+    border:none;
+    cursor: pointer;
+}
+
+.delete_button {
+    background-color: #dc3642;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    margin: 0 0 10px 10px;
+}
+
+.update_button {
+    background-color: bisque;
+}
+
+.container_wrapper {
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.buttons_wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.popUP_wrapper {
+    width: 400px;
+    height: 500px;
+    background-color:#6e7bd9;
+    border-radius: 20px;
+    position: absolute;
+    margin-left: 300px;
+    z-index: 1;
+    visibility: hidden;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.buttons {
+    background-color: #00d788;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}

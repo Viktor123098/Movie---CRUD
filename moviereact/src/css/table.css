@@ -1,0 +1,4 @@
+.container_table tr:first-child {
+    background-color: #36304a;
+    color: white;
+}
